@@ -1,0 +1,23 @@
+solution 1
+-units mol/kgw
+-temp 20
+-water 0.00348059
+-ph 7.16
+Ca 0.023101196
+Mg 0.016489033 charge
+Na 0.011045612
+K 0.002659916
+Alkalinity 0.001456912 as HCO3
+S(6) 0.021912264 as SO4
+Cl 0.046278871
+end
+
+use solution 1
+gas_phase 1
+-fixed_volume
+-volume 0.09651941
+CO2(g) 0.00037383
+EQUILIBRIUM_PHASES 1
+calcite 0 0
+gypsum 0 0
+end
